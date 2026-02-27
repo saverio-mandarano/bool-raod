@@ -6,7 +6,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 
 //import pages
 import HomePage from "./pages/Homepage";
-import MainHeader from "./components/MainHeader";
+import TravelPage from "./pages/TravelPage";
 
 function App() {
   return (
