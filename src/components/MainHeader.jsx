@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom"
-import travelData from '../data/travels_db'
+
 function MainHeader() {
     return (
         <>
-            <header className="container">
-                <h1>Logo</h1>
+            <header>
 
-                <p>Homepage</p>
-            </header>
+
+                <div className="container my-3">
+
+                    <div className="d-flex justify-content-between">
+                        <span className="header-logo">Logo</span>
+
+                        <Link to={`/`}>
+                            <button className="btn btn-primary"> Homepage </button>
+                        </Link>
+                    </div>
+
+
+
+                </div>
+
+            </header >
 
         </>
     )
