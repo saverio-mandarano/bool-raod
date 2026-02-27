@@ -1,3 +1,7 @@
+import { useState } from "react"
+
+import travels_db from "../src/data/travels_db"
+
 function HomePage() {
 
     return (
