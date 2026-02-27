@@ -1,17 +1,25 @@
+//imort tutti i componenti di gestione delle rotte
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import MainHeader from './components/MainHeader';
-import './App.css';
+//import layout
+import DefaultLayout from "./layouts/DefaultLayout";
 
+//import pages
+import HomePage from "./pages/Homepage";
+
+import MainHeader from "./components/MainHeader";
 
 function App() {
-
   return (
-    <>
-      <MainHeader />
-    </>
-    // <h1 className='text-primary d-flex justify-content-center'>sono app.jsx</h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route element={<DefaultLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/travels/:id" element={<TravelPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
