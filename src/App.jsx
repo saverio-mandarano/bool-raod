@@ -6,8 +6,12 @@ import DefaultLayout from "./layouts/DefaultLayout";
 
 //import pages
 import HomePage from "./pages/Homepage";
+import TravelPage from "./pages/TravelPage";
 
-import MainHeader from "./components/MainHeader";
+
+
+
+
 
 function App() {
   return (
