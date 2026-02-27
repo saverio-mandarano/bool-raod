@@ -8,6 +8,11 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import HomePage from "./pages/Homepage";
 import TravelPage from "./pages/TravelPage";
 
+
+
+
+
+
 function App() {
   return (
     <BrowserRouter>
