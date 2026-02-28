@@ -1,0 +1,11 @@
+.header-settings {
+    height: 80px;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header-logo {
+    width: 200px;
+}
