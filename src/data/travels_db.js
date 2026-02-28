@@ -27,7 +27,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/pois/kyoto-japan-frommers.jpg?width=440&height=400&quality=70&format=webp&fit=contain&s=zXNwfPxpn4VSflCmiA79GGx6BHfNvT29hmTyK2MKdXg",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://cdn.sanity.io/images/24oxpx4s/prod/7763f2d28eec1daaacb45848d3ee17b4c07f53eb-4928x3280.jpg",
   },
   {
     id: 3,
@@ -89,7 +89,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://images.lonelyplanetitalia.it/uploads/pUABmXtte6VjA7USLqdSM9KoXPtpWuNT.jpg?q=80&p=slider&s=5a72d8ebdf5d8defab0391a748af9b37",
   },
   {
     id: 4,
@@ -129,7 +129,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Pmq3Gv7y7z_2Xun-OqMIk43kd5u0TXEatw&s",
   },
   {
     id: 5,
@@ -169,7 +169,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://www.costacrociere.it/content/dam/costa/costa-magazine/articles-magazine/nature/perito-moreno-glacier/ghiacciaio-perito-moreno_m.jpg.image.694.390.low.jpg",
   },
   {
     id: 6,
@@ -208,7 +208,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr0_kYMdGl3FW4YPWPmu0Dp34usXemMuUfzw&s",
   },
   {
     id: 7,
@@ -247,7 +247,7 @@ const travels = [
       },
     ],
     img_url:
-      "https://tourismmedia.italia.it/is/image/mitur/20220314145636-lipari-isoleeolie-sicilia-shutterstock-593488784?wid=1240&hei=500&fit=constrain,1&fmt=webp",
+      "https://cms.visitczechia.com/cms/getmedia/284d3b94-dab5-4be2-9a5b-534734fcc1a1/STJI-010-zatec.jpg?width=1239&height=800&ext=.jpg",
   },
 ];
 

@@ -10,9 +10,9 @@ function MainHeader() {
                 <div className="container my-3">
 
                     <div className="d-flex justify-content-between header-settings">
-                        <div>
+                        <Link to={`/`}>
                             <img src={headerImg} alt="" className="header-logo" />
-                        </div>
+                        </Link>
                         {/* AGGIUNTO LOGO DA RIDIMENSIONARE IN CSS */}
                         <Link to={`/`}>
                             <button className="btn btn-primary"> Homepage </button>

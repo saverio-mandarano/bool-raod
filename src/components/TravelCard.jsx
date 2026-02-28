@@ -18,7 +18,7 @@ function TravelCard(props) {
                 <p className="card-text">{descrizione}</p>
             </div>
             <Link to={`travels/${id}`}>
-                <button className="btn btn-primary">Dettagli Viaggio</button>
+                <button className="btn btn-primary m-2">Dettagli Viaggio</button>
             </Link>
         </>
     )
