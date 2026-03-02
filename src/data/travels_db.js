@@ -2,7 +2,7 @@ const travels = [
   {
     id: 1,
     localita: "Kyoto, Giappone",
-    descrizione: "Kyoto è un'antica città giapponese dove templi e tradizione vivono in perfetta armonia.",
+    descrizione: "Kyoto è un’antica città giapponese dove templi e tradizione vivono in perfetta armonia.",
     tipo_viaggio: "Culturale",
     data_inizio: "2026-04-10",
     data_fine: "2026-04-24",
@@ -30,52 +30,52 @@ const travels = [
       "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/pois/kyoto-japan-frommers.jpg?width=440&height=400&quality=70&format=webp&fit=contain&s=zXNwfPxpn4VSflCmiA79GGx6BHfNvT29hmTyK2MKdXg",
   },
   {
-    "id": 2,
-    "localita": "Reykjavík, Islanda",
-    "descrizione": "Spedizione fotografica a caccia dell'aurora boreale e ghiacciai.",
-    "tipo_viaggio": "Avventura",
-    "data_inizio": "2026-11-05",
-    "data_fine": "2026-11-12",
-    "partecipanti": [
-      {
-        "id": 3,
-        "nome": "Luca",
-        "cognome": "Verdi",
-        "data_nascita": "1978-02-28",
-        "cf": "VRDLCU78B28H501A",
-        "telefono": "+39 328 1122334",
-        "mail": "luca.verdi@adventure.it"
-      },
-      {
-        "id": 19,
-        "nome": "Giulia",
-        "cognome": "Bianchi",
-        "data_nascita": "1992-05-15",
-        "cf": "BNCHGL92E55H501K",
-        "telefono": "+39 333 4455667",
-        "mail": "giulia.bianchi@photo.it"
-      },
-      {
-        "id": 20,
-        "nome": "Marco",
-        "cognome": "Rossi",
-        "data_nascita": "1985-11-10",
-        "cf": "RSSMRC85S10H501Z",
-        "telefono": "+39 347 9988776",
-        "mail": "marco.rossi@explorer.com"
-      },
-      {
-        "id": 21,
-        "nome": "Elena",
-        "cognome": "Moretti",
-        "data_nascita": "1990-08-22",
-        "cf": "MRTLNE90M62H501W",
-        "telefono": "+39 320 5544332",
-        "mail": "elena.moretti@travel.it"
-      }
-    ],
-    "img_url": "https://cdn.sanity.io/images/24oxpx4s/prod/7763f2d28eec1daaacb45848d3ee17b4c07f53eb-4928x3280.jpg"
-  },
+  id: 2,
+  localita: "Reykjavík, Islanda",
+  descrizione: "Spedizione fotografica a caccia dell'aurora boreale e ghiacciai.",
+  tipo_viaggio: "Avventura",
+  data_inizio: "2026-11-05",
+  data_fine: "2026-11-12",
+  partecipanti: [
+    {
+      id: 3,
+      nome: "Luca",
+      cognome: "Verdi",
+      data_nascita: "1978-02-28",
+      cf: "VRDLCU78B28H501A",
+      telefono: "+39 328 1122334",
+      mail: "luca.verdi@adventure.it"
+    },
+    {
+      id: 19,
+      nome: "Giulia",
+      cognome: "Bianchi",
+      data_nascita: "1992-05-15",
+      cf: "BNCHGL92E55H501K",
+      telefono: "+39 333 4455667",
+      mail: "giulia.bianchi@photo.it"
+    },
+    {
+      id: 20,
+      nome: "Marco",
+      cognome: "Rossi",
+      data_nascita: "1985-11-10",
+      cf: "RSSMRC85S10H501Z",
+      telefono: "+39 347 9988776",
+      mail: "marco.rossi@explorer.com"
+    },
+    {
+      id: 21,
+      nome: "Elena",
+      cognome: "Moretti",
+      data_nascita: "1990-08-22",
+      cf: "MRTLNE90M62H501W",
+      telefono: "+39 320 5544332",
+      mail: "elena.moretti@travel.it"
+    }
+  ],
+  "img_url": "https://cdn.sanity.io/images/24oxpx4s/prod/7763f2d28eec1daaacb45848d3ee17b4c07f53eb-4928x3280.jpg"
+},
   {
     id: 3,
     localita: "Safari nel Parco Kruger, Sudafrica",
@@ -238,7 +238,7 @@ const travels = [
   {
     id: 7,
     localita: "Praga, Repubblica Ceca",
-    descrizione: "Praga incanta con i suoi ponti storici e l'atmosfera fiabesca senza tempo.",
+    descrizione: "Praga incanta con i suoi ponti storici e l’atmosfera fiabesca senza tempo.",
     tipo_viaggio: "Enogastronomico",
     data_inizio: "2026-12-10",
     data_fine: "2026-12-14",
