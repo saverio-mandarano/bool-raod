@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+a span i.link {
+  font-weight: bold;
+}
+
 body {
   background-color: #f7f7f7;
 }
@@ -12,7 +16,7 @@ body {
 .header-settings {
   height: 80px;
   align-items: center;
-  background-color: #a1d99b;
+  background-color: rgb(120, 180, 120);
   padding: 10px;
 }
 
