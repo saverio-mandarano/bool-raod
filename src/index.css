@@ -1,17 +1,15 @@
 /* GENERAL */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 /* HEADER */
 .header-settings {
   height: 80px;
   align-items: center;
-  background-color:#a1d99b;
+  background-color: #a1d99b;
   padding: 10px;
-  
 }
 
 .header-logo {
@@ -25,9 +23,16 @@ a {
 /* HOMEPAGE */
 
 .fixed-height {
-    height: 100%;
+  height: 100%;
 }
 
 .homepage .card img.fixed-height {
   height: 15rem;
+}
+
+/* accordion */
+/* Bottone dell'accordion aperto */
+.accordion-button:not(.collapsed) {
+  background-color: rgb(161, 217, 155); /* verde chiaro */
+  color: #000; /* colore testo */
 }
