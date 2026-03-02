@@ -75,7 +75,7 @@ const travels = [
       }
     ],
     "img_url": "https://cdn.sanity.io/images/24oxpx4s/prod/7763f2d28eec1daaacb45848d3ee17b4c07f53eb-4928x3280.jpg"
-  }
+  },
   {
     id: 3,
     localita: "Safari nel Parco Kruger, Sudafrica",
