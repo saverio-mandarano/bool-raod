@@ -15,7 +15,9 @@ function TravelCard(props) {
         />
         <div className="card-body">
           <h5 className="card-title">{localita}</h5>
-          <p className="card-text">{descrizione}</p>
+          <p className="card-text">
+            <i>{descrizione}</i>
+          </p>
         </div>
         {/* <span className="ps-3"><i>Dettagli Viaggio</i></span> */}
       </div>

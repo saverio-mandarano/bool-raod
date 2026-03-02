@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 /* HEADER */
 .header-settings {
   height: 80px;
@@ -39,4 +43,16 @@ a {
 
 .accordion-button {
   font-weight: bold;
+}
+
+/* card */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 8px;
 }
