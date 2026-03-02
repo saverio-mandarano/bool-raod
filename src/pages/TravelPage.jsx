@@ -63,7 +63,7 @@ function TravelPage() {
           aria-label="Cerca turista"
           aria-describedby="button-addon2"
         />
-        <button className="btn btn-primary" type="button" id="button-addon2">
+        <button className="btn btn-success" type="button" id="button-addon2">
           Cerca
         </button>
       </div>

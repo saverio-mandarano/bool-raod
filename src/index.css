@@ -9,14 +9,20 @@ a {
 .header-settings {
   height: 80px;
   align-items: center;
-  background-color: aquamarine;
+  background-color:#a1d99b;
   padding: 10px;
-  /* border-radius: 15px; */
+  
 }
 
 .header-logo {
   width: 200px;
 }
+
+.button-margin {
+  margin-right: 10%;
+}
+
+/* HOMEPAGE */
 
 .fixed-height {
     height: 100%;

@@ -10,10 +10,12 @@ function MainHeader() {
                 </div>
 
 
+                <div className="button-margin">
+                    <Link to={`/`}>
+                        <span className="text-dark"> <i> Homepage </i> </span>
+                    </Link>
+                </div>
 
-                <Link to={`/`}>
-                    <button className="btn btn-primary"> Homepage </button>
-                </Link>
             </header>
         </>
     );
