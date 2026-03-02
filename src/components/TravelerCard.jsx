@@ -1,21 +1,27 @@
-//importo usestate per avere var dinameche
-import { useState } from "react"
-
 const TravelerCard = ({ traveler }) => {
-    //imposto var di satao che gestisce il togle aperto chiuso
-    const [isOpen, SetIsOpen] = useState(false)
+  const collapseId = `collapse-${traveler.id}`;
+  return (
+    <div className="accordion">
+      <h2 className="accordion-header">
+        <button
+          className="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target={`#${collapseId}`}
+          aria-expanded="false"
+          aria-controls={collapseId}
+        >
+          {traveler.nome} {traveler.cognome}
+        </button>
+      </h2>
+      <div id={collapseId} className="accordion-collapse collapse ps-5">
+        <p>Data di nascita: {traveler.data_nascita}</p>
+        <p>Codice fiscale: {traveler.cf}</p>
+        <p>Cellulare: {traveler.telefono}</p>
+        <p>Email: {traveler.mail}</p>
+      </div>
+    </div>
+  );
+};
 
-    return (
-        //aggiungo onclick al mio li per settare il il NOT var di stato
-        <li onClick={() => SetIsOpen(!isOpen)} className="list-group-item">{traveler.nome} {traveler.cognome}
-            {isOpen && <ul className="list-group">
-                <li className="list-group-item">Data di nascita: {traveler.data_nascita}</li>
-                <li className="list-group-item">Codice fiscale: {traveler.cf}</li>
-                <li className="list-group-item">Cellulare: {traveler.telefono}</li>
-                <li className="list-group-item">e-Mail: {traveler.mail}</li>
-            </ul>}
-        </li>// conditionl rendering se isOpen é true mostra il contenuto
-    )
-}
-
-export default TravelerCard
+export default TravelerCard;

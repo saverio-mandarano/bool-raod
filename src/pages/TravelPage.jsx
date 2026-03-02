@@ -9,15 +9,17 @@ import TravelerCard from "../components/TravelerCard";
 
 function TravelPage() {
   //imposto var di stato che mi ritorna input utente
-  const [inputData, setInputData] = useState('')
+  const [inputData, setInputData] = useState("");
   //ricavo id dimanico usando params
   const { id } = useParams();
   //definisco viaggio usando id dinamico e metodo find per ciclare arrai viaggi finche non trovo quello con il medesimo id del mio url
   const travel = travels.find((t) => t.id === Number(id));
   //uso metodo filter per tornare un array filtrato che contenga nomi o parti di nomi in comune sia con il mio array di partenza sia con l'input della searchbar
-  const filteredTraveler = travel.partecipanti.filter(p => p.nome.toLocaleLowerCase().includes(inputData.toLocaleLowerCase())
-  || //normalizzo sia il nome che pesco da array sia quello che arriva da input con .tolowercase(), uso operatore logico OR || per inludere anche il cognome nella ricerca
-  p.cognome.toLocaleLowerCase().includes(inputData.toLocaleLowerCase()))
+  const filteredTraveler = travel.partecipanti.filter(
+    (p) =>
+      p.nome.toLocaleLowerCase().includes(inputData.toLocaleLowerCase()) || //normalizzo sia il nome che pesco da array sia quello che arriva da input con .tolowercase(), uso operatore logico OR || per inludere anche il cognome nella ricerca
+      p.cognome.toLocaleLowerCase().includes(inputData.toLocaleLowerCase()),
+  );
 
   return (
     //card dettaglio viaggio
@@ -53,7 +55,8 @@ function TravelPage() {
 
       {/* search bar per filtraggio turisti */}
       <div className="input-group mb-3 mt-5">
-        <input onChange={(e) => setInputData(e.target.value)} //uso onchage per avere dinamicamente input utente, lo passo alla funzione di setter che mi cambia dimanicamente il mio inputData
+        <input
+          onChange={(e) => setInputData(e.target.value)} //uso onchage per avere dinamicamente input utente, lo passo alla funzione di setter che mi cambia dimanicamente il mio inputData
           type="text"
           className="form-control"
           placeholder="Nome turista"
@@ -64,7 +67,7 @@ function TravelPage() {
           Cerca
         </button>
       </div>
-      <ul className="list-group mb-5">
+      <div className="accordion mb-5" id="travelersAccordion">
         {filteredTraveler.map(
           (
             partecipante, //mappo array partecipanti contenuto nel travel trovato dal find per render lista pareticmapti
@@ -72,7 +75,7 @@ function TravelPage() {
             <TravelerCard key={partecipante.id} traveler={partecipante} />
           ),
         )}
-      </ul>
+      </div>
     </div>
   );
 }
