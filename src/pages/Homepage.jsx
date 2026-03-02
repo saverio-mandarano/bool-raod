@@ -9,8 +9,7 @@ function HomePage() {
         <h1 className="my-4 ">Lista viaggi attivi</h1>
         <div className="row g-4">
           {travels_db.map((travel) => (
-            <div key={travel.id} className=" col-12 col-md-6 col-lg-4 hompage">
-
+            <div key={travel.id} className=" col-12 col-md-6 col-lg-4 homepage">
               <TravelCard travelProp={travel} />
             </div>
           ))}

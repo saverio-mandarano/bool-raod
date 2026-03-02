@@ -1,16 +1,15 @@
 .header-settings {
-    height: 80px;
-    align-items: center;
-    background-color: aquamarine;
-    padding: 10px;
-    /* border-radius: 15px; */
+  height: 80px;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 10px;
+  /* border-radius: 15px; */
 }
 
 .header-logo {
-    width: 200px;
+  width: 200px;
 }
 
-.homepage .card img.min-height {
-    min-height: 190px;
+.homepage .card img.fixed-height {
+  height: 15rem;
 }
-
