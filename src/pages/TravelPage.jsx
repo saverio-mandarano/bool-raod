@@ -30,7 +30,7 @@ function TravelPage() {
           <div className="col-md-5 moviepage">
             <img
               src={travel.img_url}
-              className="card-img-top "
+              className="card-img-top object-fit-cover fixed-height"
               alt={travel.localita}
             />
           </div>

@@ -15,10 +15,10 @@ function TravelCard(props) {
       <div className="card-body">
         <h5 className="card-title">{localita}</h5>
         <p className="card-text">{descrizione}</p>
-        <Link to={`travels/${id}`}>
-          <button className="btn btn-primary mb-2">Dettagli Viaggio</button>
-        </Link>
       </div>
+      <Link to={`travels/${id}`}>
+        <span className="ps-3"><i>Dettagli Viaggio</i></span>
+      </Link>
     </div>
   );
 }

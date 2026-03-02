@@ -1,3 +1,10 @@
+/* GENERAL */
+
+a {
+    text-decoration: none;
+}
+
+
 /* HEADER */
 .header-settings {
   height: 80px;
@@ -9,6 +16,10 @@
 
 .header-logo {
   width: 200px;
+}
+
+.fixed-height {
+    height: 100%;
 }
 
 .homepage .card img.fixed-height {
