@@ -36,3 +36,7 @@ a {
   background-color: rgb(161, 217, 155); /* verde chiaro */
   color: #000; /* colore testo */
 }
+
+.accordion-button {
+  font-weight: bold;
+}
