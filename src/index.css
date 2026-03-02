@@ -24,6 +24,10 @@ body {
   margin-right: 10%;
 }
 
+.active {
+  display: none;
+}
+
 /* HOMEPAGE */
 
 .fixed-height {

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import headerImg from "../assets/pngegg.png";
 
 function MainHeader() {
@@ -11,9 +11,9 @@ function MainHeader() {
 
 
                 <div className="button-margin">
-                    <Link to={`/`}>
-                        <span className="text-dark"> <i> Homepage </i> </span>
-                    </Link>
+                    <NavLink to={`/`}>
+                        <span className="btn btn-light"> <i> Homepage </i> </span>
+                    </NavLink>
                 </div>
 
             </header>
