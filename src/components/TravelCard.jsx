@@ -12,7 +12,7 @@ function TravelCard(props) {
         <h5 className="card-title">{localita}</h5>
         <p className="card-text">{descrizione}</p>
         <Link to={`travels/${id}`}>
-          <button className="btn btn-primary m-2">Dettagli Viaggio</button>
+          <button className="btn btn-primary mb-2">Dettagli Viaggio</button>
         </Link>
       </div>
     </div>
