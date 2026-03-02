@@ -24,10 +24,7 @@ function TravelPage() {
   return (
     //card dettaglio viaggio
     <div className="container">
-      <section
-        id="travel-details"
-        className="card my-4 w-100 bg-body-secondary"
-      >
+      <section id="travel-details" className="card my-4 w-100 ">
         <div className="row g-0 anteprima">
           <div className="col-md-5 moviepage">
             <img
