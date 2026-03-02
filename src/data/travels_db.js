@@ -2,7 +2,7 @@ const travels = [
   {
     id: 1,
     localita: "Kyoto, Giappone",
-    descrizione: "Tour culturale tra templi zen e foreste di bambù.",
+    descrizione: "Kyoto è un’antica città giapponese dove templi e tradizione vivono in perfetta armonia.",
     tipo_viaggio: "Culturale",
     data_inizio: "2026-04-10",
     data_fine: "2026-04-24",
@@ -213,7 +213,7 @@ const travels = [
   {
     id: 7,
     localita: "Praga, Repubblica Ceca",
-    descrizione: "Mercatini di Natale e tour delle birrerie storiche.",
+    descrizione: "Praga incanta con i suoi ponti storici e l’atmosfera fiabesca senza tempo.",
     tipo_viaggio: "Enogastronomico",
     data_inizio: "2026-12-10",
     data_fine: "2026-12-14",
