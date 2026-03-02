@@ -1,3 +1,5 @@
+
+/* HEADER */
 .header-settings {
     height: 80px;
     align-items: center;
@@ -10,6 +12,7 @@
     width: 200px;
 }
 
+/* HOMEPAGE */
 .homepage .card img.min-height {
     min-height: 190px;
 }
